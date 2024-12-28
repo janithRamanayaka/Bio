@@ -1,0 +1,103 @@
+body {
+    background: url('../images/tech-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ff00cc;
+}
+main {
+    padding: 20px;
+}
+section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+p {
+    line-height: 1.6;
+}
+.about-me .content {
+    display: flex;
+    align-items: center;
+}
+.about-me .photo {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+.about-me .photo img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.about-me .text {
+    flex: 2;
+    margin: 20px;
+}
+.custom-link{
+    color: #ffffff;
+}
+.microsoft-logos {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    margin: 0px 0;
+    margin-top: 0%;
+}
+
+.microsoft-logos img {
+    margin: 0 20px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.microsoft-logos img:hover {
+    transform: scale(1.1);
+}
+.link-posts{
+    color: white;
+}

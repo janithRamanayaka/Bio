@@ -1,0 +1,25 @@
+{
+  "name": "personal-biography",
+  "version": "1.0.0",
+  "description": "A modern web page to publish a personal biography with animations and multiple pages.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be defined here'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "biography",
+    "personal",
+    "web",
+    "animation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.9.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
